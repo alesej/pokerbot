@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="PokerBot.jnlp">
+    <information>
+        <title>PokerBot</title>
+        <vendor>Jared</vendor>
+        <description>null</description>
+        <offline-allowed/>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="9.0.1+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="PokerBot.jar" size="15961" download="eager"/>
+    </resources>
+    <jfx:javafx-desc width="800" height="600" main-class="pokerbot.PokerBot" name="PokerBot"/>
+</jnlp>
+
